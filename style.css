@@ -1,0 +1,130 @@
+.bt1 {
+	border: groove;
+	border-radius: 20%;
+	color: white;
+	font-size: 18px;
+	margin-left: 87px;
+	margin-top: 10px;
+	transition-duration: 0.4s;
+	}
+
+.bt1:hover{
+	background-color: black;
+	}
+
+.bt2 {
+	border: groove;
+	border-radius: 20%;
+	color: white;
+	font-size: 20px;
+	margin-left: 70%;
+	margin-top: 5%;
+	}
+
+.bt3 {
+	border: groove;
+	border-radius: 20%;
+	color: white;
+	font-size: 20px;
+	margin-left: 70%;
+	margin-top: 5%;
+	}
+
+.bt4 {
+	border: groove;
+	border-radius: 20%;
+	color: white;
+	font-size: 20px;
+	margin-left: 70%;
+	margin-top: 14%;
+}
+
+.inp1 {
+	margin-left: 1%;
+	margin-top: 5%;
+	height: 30px;
+	border: none;
+	outline: none;
+	width: 98%;
+	font-size: 30px;
+	font-family: fantasy;
+	}
+
+.area {
+	overflow: hidden;
+	border: none;
+	outline: none;
+	font-size: 15px;
+	font-family: fantasy;
+	}
+	  
+.textborder{
+	border:solid;
+	border-color: bisque;
+	}
+
+.content .slide .textborder{
+	border: solid;	
+	margin-top:3%;
+	border-color: bisque;
+	}
+
+.leftblock {
+	float: left;
+	width: 18%;
+	height: 100%;
+	overflow: auto;
+	position: static;
+	background: dimgray;
+	border: groove;
+    }
+
+.leftblock .slide .inp1 {
+	font-size: 15px;
+	font-family: fantasy;
+    }
+
+.leftblock .slide .area {
+    margin-left: 4%;
+	margin-top: 3%;
+	height: 40%;
+	width: 90%;
+	resize: none;
+	font-family: fantasy;
+	font-size: 10px;
+	}
+
+.content {
+	position: fixed;
+	width: 82%;
+	height: 98%;
+	border: groove;
+	background: Silver;
+	left: 18%;
+	top: 1%;
+    }
+
+.content .slide {
+	width : 53%;
+	height : 60%;
+	position: absolute;
+	margin: 13%;
+	}
+
+.slide {
+	width: 77%;
+	height: 15%;
+	background: white;
+	margin-left: 8%;
+	margin-top: 3%;
+	border-radius: 7%;
+	border: ridge;
+	}
+
+.leftblock .slide:hover {
+	transform: scale(1.1);
+	transition:all 0.5s ease;
+	}
+	 
+
+
